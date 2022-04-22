@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ img{
+  width: 200px;
+  height: 100px;
+ }
+#maindiv{
+ 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+width: 100%;
+
+}
+#leftdiv{
+  width: 27%;
+  height: 400px;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-right: 3%;
+  background-color: lightblue;
+
+}
+#rightdiv{
+width: 65%;
+border:1px solid black;
+margin-top: 50px
+}
+#btn{
+  width: 100px;
+  border:none;
+  font-size: 30px;
+}
+.form{
+  height: 530px;
+  width: 29%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 4%;
+  font-size: 19px;
+  background-color: rgb(197, 213, 218);
+}
+
+.loginImg{
+  height:680px;
+  margin-top: -4%;
+  background-image: url("https://th.bing.com/th/id/R.cb58bfcb6cb331093e3303f37f67aaf2?rik=I%2f%2frl0Y2N7Pp1g&riu=http%3a%2f%2funiversityinnovation.org%2fimages%2fc%2fcf%2fBerea_college.jpg&ehk=oeHFtx4gbEpFfhoxk406OM2qcOV8VnGTMdgwOvKZovc%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signImg{
+  height:680px;
+  margin-top: -4%;
+  background-image: url("https://i.pinimg.com/originals/18/ab/84/18ab84607328834b6a72ab1a9a03cbc6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.form2{
+  height: 630px;
+  width: 29%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 4%;
+  font-size: 19px;
+  background-color: rgb(187, 221, 180);
+  
+}
+
+#submitBtn{
+  background-color: rgb(11, 11, 75);
+  border: none;
+  font-size: 18px;
+  padding: 6px 18px;
+  color: aliceblue;
+}
+#btn1{
+font-size: 30px;
+  border: none;
+}
+
+#paginate{
+  display: flex;
+  justify-content: space-between;
+}
+
+.page{
+  width: 100px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: rgb(108, 145, 160);
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
